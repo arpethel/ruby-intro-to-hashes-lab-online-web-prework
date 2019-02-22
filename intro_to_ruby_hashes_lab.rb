@@ -30,11 +30,11 @@ def monopoly_with_third_tier
 	    :pieces=>4,
 			:names=>
 			{
-      :reading_railroad=>new_hash,
-      :pennsylvania_railroad=>new_hash,
-      :b_and_o_railroad=>new_hash,
-      :shortline=>new_hash
-    }
+	      :reading_railroad=>new_hash,
+	      :pennsylvania_railroad=>new_hash,
+	      :b_and_o_railroad=>new_hash,
+	      :shortline=>new_hash
+    	}
 			:rent_in_dollars=>
 			{
 				:one_piece_owned=>25,
