@@ -25,7 +25,7 @@ def monopoly_with_third_tier
 	  :railroads=>
 	  {
 	    :pieces=>4,
-	    :names=>{}
+	    :names=>new_hash
 	  }
 	}
 end
@@ -36,8 +36,8 @@ def monopoly_with_fourth_tier
 	  :railroads=>
 	  {
 	    :pieces=>4,
-	    :rent_in_dollars=>{},
-	    :names=>{}
+	    :rent_in_dollars=>new_hash,
+	    :names=>new_hash
 	  }
 	}
 end
