@@ -8,8 +8,7 @@ def actor
 end
 
 def monopoly
-	monopoly = {}
-
+	monopoly = {railroads: my_hash}
 end
 
 def monopoly_with_second_tier
